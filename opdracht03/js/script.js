@@ -12,15 +12,26 @@ window.onload = function(){
     // document.getElementById("light-bottom").style.backgroundColor = "green";
 }
 
-function zetRoodLichtAan(){
+function zetRoodLichtAan()
+{
+if (document.getElementById("light-top").style.backgroundColor == "grey")
+    
+    {
     document.getElementById("light-top").style.backgroundColor = "red";
+    }
+
+else {
+    document.getElementById("light-top").style.backgroundColor = "grey";
+     }
+
 }
+ 
+
 
 function zetOranjeLichtAan(){
-     //JOUW CODE HIER
+    document.getElementById("light-middle").style.backgroundColor = "orange";
 }
 
 function zetGroenLichtAan(){
-    //JOUW CODE HIER
-
+    document.getElementById("light-bottom").style.backgroundColor = "green";
 }
